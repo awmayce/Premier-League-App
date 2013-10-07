@@ -1,0 +1,44 @@
+/**
+*	Body
+*/
+body {
+	margin-top:71px;
+}
+
+/**
+*	Team Pages
+*/
+img.team-badge {
+	width: 100px;
+}
+
+/**
+*	App
+*/
+.app {
+	height: 400px;
+	width:700px;
+	margin:0 auto;
+	overflow: hidden;
+	border:1px solid black;
+}
+.app ::-webkit-scrollbar { 
+    display: none;
+    width:0px;
+}
+
+.team-badge-wrap {
+	float: left;
+	width: 100px;
+	height: 400px;
+	overflow-x: auto;
+}
+.app input[type="submit"] {
+	height: 100px;
+	width:  100px;
+	background-size: 75px;
+	border:0;
+	background-color:#eee;
+	background-repeat:no-repeat;
+	font-size:0;
+}
